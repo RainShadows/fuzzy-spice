@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-FuzzySpice::Application.load_tasks
+RspecApp::Application.load_tasks

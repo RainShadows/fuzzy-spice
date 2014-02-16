@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-FuzzySpice::Application.config.secret_key_base = 'fc02bdb244a7b405c45da0b6d1e9641bd22dbb9a2aa21cbbe9ddaf133915105efa0caeb09af0337d709ba1d4f74e33490d86414c1cd1875a0c60fe5c99d58ac0'
+RspecApp::Application.config.secret_key_base = 'e8dfa0195e3f167aeb4be66d53d3a27248ff62391d7c33908c017f09b215a6fb423486712ce6202ffdfa80665aa610d616a53011c99f06f54c5a2ceb683b8c75'
