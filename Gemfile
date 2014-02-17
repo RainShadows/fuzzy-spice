@@ -23,7 +23,12 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-gem 'therubyracer' 
+
+# postgres gem
+gem 'pg'
+
+# bootstrap gem
+gem 'bootstrap-sass', '2.3.2.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -31,7 +36,6 @@ group :doc do
 end
 
 group :development, :test do
-  gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec'
 end
@@ -46,7 +50,7 @@ group :test do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
+  gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
 # gem 'unicorn'
